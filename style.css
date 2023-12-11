@@ -7,17 +7,64 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  display: flex; /* Apply flexbox for the entire body */
+  flex-direction: column; /* Stack child elements vertically */
+  min-height: 100vh; /* Ensure the body takes at least the full viewport height */
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333; /* Example background color, replace with your color */
+  color: white; /* Example text color, replace with your color */
 }
 
-p {
+nav ul {
+  list-style-type: none;
   margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+main {
+  flex: 1; /* Allow main content to grow and take remaining space */
+}
+
+.hero-banner {
+  background-color: #ddd; /* Example background color, replace with your color */
+  padding: 20px;
+}
+
+.page-section {
+  margin: 20px;
+}
+
+/* Media Queries for Responsive Design */
+
+@media (min-width: 768px) {
+  body {
+    flex-direction: row; /* Switch to a horizontal layout for larger screens */
+  }
+
+  nav {
+    margin-top: 0; /* Remove top margin for navigation on larger screens */
+  }
+
+  main {
+    flex: 2; /* Adjust the main content to take more space on larger screens */
+  }
+
+  .hero-banner {
+    padding: 40px; /* Increase padding for larger screens */
+  }
+
+  .page-section {
+    margin: 40px; /* Increase margin for larger screens */
+  }
 }
