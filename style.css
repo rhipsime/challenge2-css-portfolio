@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  line-height: 1.5;
+  line-height: normal;
   display: flex; 
   flex-direction: coloumn; 
   min-height: 100vh; 
@@ -82,22 +82,22 @@ main {
   }
 
   nav {
-    margin-top: 0; /* Remove top margin for navigation on larger screens */
+    margin-top: 0; 
   }
 
   main {
-    flex: 2; /* Adjust the main content to take more space on larger screens */
+    flex: 2; /
   }
 
   .hero-banner {
-    padding: 40px; /* Increase padding for larger screens */
+    padding: 40px; 
   }
 
   .page-section {
-    margin: 40px; /* Increase margin for larger screens */
+    margin: 40px;
   }
 
-  /* Adjust work section styles for larger screens */
+
   #work {
     text-align: left;
   }
