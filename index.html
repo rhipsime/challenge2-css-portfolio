@@ -25,7 +25,7 @@
   <!-- hero banner -->
   <section class="hero-banner">
     <div>
-      <h2>Interesting Fact: I have a pet Orca!</h2>
+      <h2>Cool subtitle here!</h2>
     </div>
   </section>
 
@@ -34,11 +34,50 @@
     <section class="page-section" id="about">
       <div>
         <h2>About Me</h2>
-        <p>Hello, I'm Arie David, a results-driven professional based in London. I hold a BA in History from the University of Warwick, achieving a solid 2.1 grade. With a background in CRM coordination at UNiDAYS, I successfully managed end-to-end campaign delivery and contributed to year-over-year growth. As a Mental Health First Aider at St John’s Ambulance, I created resources and supported colleagues dealing with mental health challenges. My diverse skill set includes Salesforce Certified Administrator, Google Analytics, and proficiency in HTML, CSS, Adobe Suite, Canva, and Social Media.</p>
+        <p>Hello, I'm Arie David, a results-driven professional based in London...</p>
       </div>
-
-      <!-- Add your name and photo/avatar here -->
       <div>
         <h3>Arie David</h3>
         <!-- Replace the placeholder with the path or link to your actual photo/avatar -->
         <img src="path/to/your/photo.jpg" alt="Arie David's Photo">
+      </div>
+    </section>
+
+    <!-- portfolio container -->
+    <section class="page-section" id="work">
+      <h2>Work</h2>
+    </section>
+
+    <!-- contact -->
+    <section class="page-section contact" id="contact">
+      <h2>Contact Me</h2>
+      <p>Email: ariedavid98@gmail.com</p>
+      <p>Phone: 07852661825</p>
+      <!-- Add more contact information as needed -->
+    </section>
+  </main>
+
+  <!-- JavaScript for smooth scrolling -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const navLinks = document.querySelectorAll('nav a');
+
+      navLinks.forEach(link => {
+        link.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          const targetId = this.getAttribute('href').substring(1);
+          const targetElement = document.getElementById(targetId);
+
+          if (targetElement) {
+            targetElement.scrollIntoView({
+              behavior: 'smooth'
+            });
+          }
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>
