@@ -5,7 +5,6 @@
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Screenshots](#screenshots)
-- [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
@@ -17,7 +16,7 @@ As a part of a web development challenge, I created this portfolio to demonstrat
 ## Features
 - Responsive design with Flexbox and media queries
 - Smooth scrolling effect for navigation links
-- Showcase of my work with titled images and links to deployed applications
+- Showcase of my work with titled images and links to deployed applications (As I don't have anything yet to link to in my portfolio, the link goes to another website for now to demonstrate my ability)
 
 ## Technologies Used
 - HTML5
@@ -25,17 +24,13 @@ As a part of a web development challenge, I created this portfolio to demonstrat
 - JavaScript
 
 ## Screenshots
-Include screenshots or GIFs showcasing different sections of your portfolio.
-
-## Getting Started
-1. Clone this repository.
-2. Open the `index.html` file in your preferred web browser.
 
 ## Usage
-Describe how to use or navigate through your portfolio.
+- Use the navigation bar at the top to jump to different sections: About, Work, and Contact.
+- Click on the application images in the Work section to open the deployed projects.
 
 ## Deployment
-The live version of this portfolio can be accessed at [Live Portfolio](insert-live-portfolio-url).
+The live version of this portfolio can be accessed at [Live Portfolio](https://rhipsime.github.io/challenge2-css-portfolio/).
 
 ## Contributing
 If you would like to contribute or have suggestions, please open an issue or create a pull request.
