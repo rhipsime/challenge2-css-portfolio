@@ -7,9 +7,9 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: normal;
-  display: flex; 
-  flex-direction: column; 
-  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 header {
@@ -17,15 +17,15 @@ header {
   justify-content: space-between;
   align-items: normal;
   padding: 10px 20px;
-  background-color: #e5add2; 
-  color: rgb(0, 0, 0); 
+  background-color: #e5add2;
+  color: rgb(0, 0, 0);
 }
 
 .profile-photo {
-  max-width: 100px; 
-  height: auto; 
-  border-radius: 50%; 
-  margin-top: 10px; 
+  max-width: 100px;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 10px;
 }
 
 nav ul {
@@ -40,7 +40,7 @@ nav li {
 }
 
 main {
-  flex: 1; 
+  flex: 1;
 }
 
 .hero-banner {
@@ -52,6 +52,10 @@ main {
   margin: 20px;
 }
 
+.page-section {
+  max-width: 300px;
+}
+
 #work {
   text-align: center;
 }
@@ -59,13 +63,18 @@ main {
 .work-item-bigger {
   margin: 10px;
 }
+
+.work-item-bigger img {
+  max-width: 500px;
+}
+
 .work-item {
   position: relative;
   margin: 20px;
 }
 
 .work-item img {
-  max-width: 300%;
+  max-width: 300px;
   height: auto;
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -86,25 +95,32 @@ main {
 
 @media (min-width: 768px) {
   body {
-    flex-direction: row; 
+    flex-direction: row;
   }
 
-  header, .hero-banner
-  {width: 25% ; }
+  header,
+  .hero-banner {
+    min-width: 25%;
+    max-width: 25%;
+  }
+
+  .page-wrapper {
+    max-width: 50%;
+  }
 
   nav {
-    margin-top: 0; 
+    margin-top: 0;
   }
 
   main {
-    flex: 2; 
+    flex: 2;
   }
 
   .hero-banner {
     background-color: #C2396E;
     padding: 0;
   }
-  
+
 
   .page-section {
     margin: 40px;
