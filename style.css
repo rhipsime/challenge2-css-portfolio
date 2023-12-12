@@ -65,7 +65,7 @@ main {
 }
 
 .work-item img {
-  max-width: 100%;
+  max-width: 300%;
   height: auto;
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -88,6 +88,9 @@ main {
   body {
     flex-direction: row; 
   }
+
+  header, .hero-banner
+  {width: 25% ; }
 
   nav {
     margin-top: 0; 
