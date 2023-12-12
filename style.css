@@ -59,21 +59,29 @@ main {
 .work-item-bigger {
   margin: 10px;
 }
-
 .work-item {
+  position: relative;
   margin: 20px;
 }
 
 .work-item img {
   max-width: 100%;
   height: auto;
-  border: 1px solid #ddd; 
-  border-radius: 8px; 
+  border: 1px solid #ddd;
+  border-radius: 8px;
 }
 
 .work-item h3 {
-  margin-top: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* You can adjust the color based on your design */
+  text-align: center;
+  margin: 0;
+  z-index: 1; /* Ensure the text is above the image */
 }
+
 
 @media (min-width: 768px) {
   body {
