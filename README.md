@@ -25,6 +25,10 @@ As a part of a web development challenge, I created this portfolio to demonstrat
 
 ## Screenshots
 
+![Screenshots](./images/Screenshot%202023-12-12%20at%2022.29.52.png) 
+![screenshot](./images/Screenshot%202023-12-12%20at%2022.30.03.png)
+
+
 ## Usage
 - Use the navigation bar at the top to jump to different sections: About, Work, and Contact.
 - Click on the application images in the Work section to open the deployed projects.
