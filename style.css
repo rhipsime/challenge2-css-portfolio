@@ -8,10 +8,9 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: normal;
   display: flex; 
-  flex-direction: coloumn; 
+  flex-direction: column; 
   min-height: 100vh; 
 }
-
 
 header {
   display: flex;
@@ -29,7 +28,6 @@ header {
   margin-top: 10px; 
 }
 
-
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -46,14 +44,13 @@ main {
 }
 
 .hero-banner {
-  background-color: #C2396E; /
+  background-color: #C2396E;
   padding: 0;
 }
 
 .page-section {
   margin: 20px;
 }
-
 
 #work {
   text-align: center;
@@ -62,21 +59,21 @@ main {
 .work-item-bigger {
   margin: 20px;
 }
+
 .work-item {
   margin: 20px;
 }
+
 .work-item img {
   max-width: 100%;
   height: auto;
-  border: 1px solid #ddd; /
+  border: 1px solid #ddd; 
   border-radius: 8px; 
 }
 
 .work-item h3 {
   margin-top: 10px;
 }
-
-
 
 @media (min-width: 768px) {
   body {
@@ -88,7 +85,7 @@ main {
   }
 
   main {
-    flex: 2; /
+    flex: 2; 
   }
 
   .hero-banner {
@@ -98,7 +95,6 @@ main {
   .page-section {
     margin: 40px;
   }
-
 
   #work {
     text-align: left;
